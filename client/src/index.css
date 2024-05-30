@@ -1,0 +1,521 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+.user-sneakers {
+  margin-top: 20px;
+}
+
+.sneakers-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sneaker-item {
+  width: 300px !important; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .custom-col.col-md-4 {
+      flex: 0 0 auto;
+      width: 25%;
+  }
+}
+
+
+
+.sneaker-image {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+.sneaker-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.search-input {
+  width: 60% !important;
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px; 
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px; 
+}
+
+.search-button:hover {
+  background-color: #5a5454;
+}
+
+.add-to-cart-button {
+  background-color: #35513a;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+.sneaker-brand {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sneaker-name {
+  margin-bottom: 5px;
+}
+
+.sneaker-price {
+  margin-bottom: 5px;
+  color: green;
+}
+.sneaker-sizes {
+  margin-bottom: 5px;
+}
+.page-container {
+  flex: 1; 
+}
+.container_form {
+  opacity: 0.9;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #716262;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+.form-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.form-submit {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-submit:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+}
+
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+body {
+  margin: 0; 
+  
+  min-height: 100vh; 
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.form-submit {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #45a049;
+}
+
+.image-preview {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.full-page-image {
+  background-image: url(https://ike.by/wp-content/uploads/2017/01/8.jpg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 100vh; 
+  object-fit: cover; 
+  z-index: -1; 
+}
+
+
+
+.registration-page {
+  background-image: url(https://ike.by/wp-content/uploads/2017/01/8.jpg);
+  min-height: 100%;
+  height: 100vh;
+}
+
+.registration-page-footer {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.header {
+  
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav ul li a:hover {
+  color: #716f6a;
+}
+
+.main h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main p {
+  font-size: 18px;
+}
+
+.mt-4{
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.modal {
+  display: block !important;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  animation: fadeIn 0.3s ease-in; 
+}
+.error_autorus{
+  text-align: center;
+  color: red;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px; 
+}
+
+.close {
+  color: #aaa;
+  font-size: 36px; 
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.contact-info {
+  margin-top: 50px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.contact-info strong {
+  font-weight: bold;
+}
+
+.location-map {
+  margin-top: 50px;
+}
+
+.location-map iframe {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.purchase-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.purchase-form-container {
+  padding: 20px;
+}
+
+.purchase-form h3 {
+  margin-bottom: 20px;
+}
+
+.purchase-form .form-group {
+  margin-bottom: 15px;
+}
+
+.purchase-form .btn {
+  min-width: 100px;
+}
+
+.purchase-form .btn + .btn {
+  margin-left: 10px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  color: white;
+  background-color: var(--bs-secondary-color);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.admin-page h1 {
+  margin-bottom: 20px;
+}
+
+.admin-page button {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.admin-page button:hover {
+  background-color: #0056b3;
+}
+
+.sneakers-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.sneakers-form input,
+.sneakers-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sneakers-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sneakers-form button:hover {
+  background-color: #218838;
+}
+.sneakers-form-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.sneakers-form .form-label {
+  font-weight: bold;
+}
+
+.sneakers-form .form-control {
+  margin-bottom: 10px;
+}
+
+.sneakers-form .btn {
+  margin-right: 10px;
+}
